@@ -14,9 +14,8 @@ class FixedHeaderTable extends StatefulWidget {
   final _subTableXController = ScrollController();
   final _columnHeader = "Corner";
   final _rowHeader = "Row";
-
-  final totalRows = 30;
-  final totalColumns = 30;
+  final totalRows = 20;
+  final totalColumns = 20;
 
   @override
   void initState() {
